@@ -1,0 +1,15 @@
+a:link, a:visited {
+  background-color: LightBlue;
+  color: Cornsilk;
+  border: 2px solid Cornsilk;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: Cornsilk;
+  color: LightBlue;
+  border: 2px solid LightBlue;
+}
+

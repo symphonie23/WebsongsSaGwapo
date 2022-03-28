@@ -1,0 +1,141 @@
+.title {
+    color: CadetBlue;
+    text-align: center;
+    font-family: "Verdana";
+}
+.subtitle {
+    color: CadetBlue;
+    text-align: center;
+    font-family: "Verdana";
+}
+
+/*LIST (NOT INCLUDED) */
+
+li:first-child, li:nth-child(2), li:nth-child(3), li:nth-child(4), li:last-child {
+    color:white;
+}
+li:hover {
+    color:black;
+}
+
+/*LINK COLORS*/
+
+#link1:link, #link1:visited {
+    background-color: yellow;
+    color: GoldenRod;
+    text-decoration: none;
+}
+#link1:hover, #link1:active {
+    background-color: GoldenRod;
+    color: yellow;
+}
+
+#link2:link, #link2:visited {
+    background-color: LightGray;
+    color: Olive;
+    text-decoration: none;
+}
+#link2:hover, #link2:active {
+    background-color: Olive;
+    color: LIghtGray;
+}
+
+#link3:link, #link3:visited {
+    background-color: DarkRed;
+    color: white;
+    text-decoration: none;
+}
+#link3:hover, #link3:active {
+    background-color: white;
+    color: DarkRed;
+}
+
+#link4:link, #link4:visited {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+#link4:hover, #link4:active {
+    background-color: black;
+    color: white;
+} 
+
+#link5:link, #link5:visited {
+    background-color: MediumTurquoise;
+    color: RosyBrown;
+    text-decoration: none;
+}
+#link5:hover, #link5:active {
+    background-color: RosyBrown;
+    color: MediumTurquoise;
+}
+
+#link6:link, #link6:visited {
+    background-color: LightBlue;
+    color: Cornsilk;
+    text-decoration: none;
+}
+#link6:hover, #link6:active {
+    background-color: Cornsilk;
+    color: LightBlue;
+}
+
+.credits {
+    color: black;
+    size: 200%;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+    width: fit-content;
+}
+
+/*SEARCH BUTTON*/
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/*IMAGE GALLERY*/
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}

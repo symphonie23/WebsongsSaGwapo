@@ -1,0 +1,15 @@
+a:link, a:visited {
+  background-color: MediumTurquoise;
+  color: RosyBrown;
+  border: 2px solid RosyBrown;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: RosyBrown;
+  color: MediumTurquoise;
+  border: 2px solid MediumTurquoise;
+}
+
